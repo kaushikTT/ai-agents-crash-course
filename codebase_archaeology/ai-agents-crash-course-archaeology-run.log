@@ -1,0 +1,43 @@
+--- Run: 2026-07-08T11:30:00Z ---
+[2026-07-08T11:30:00Z] [INFO] [INIT] Agent started. Repository: kaushikTT/ai-agents-crash-course, Branch: main, Scope: full
+[2026-07-08T11:30:01Z] [INFO] [FOLDER-CHECK] Checking for existing codebase_archaeology folder in branch: main
+[2026-07-08T11:30:02Z] [INFO] [FOLDER-CHECK] Folder not found. Proceeding with full analysis. isFirstRun=true
+[2026-07-08T11:30:02Z] [INFO] [REPO-METADATA] Step started.
+[2026-07-08T11:30:04Z] [INFO] [REPO-METADATA] Step completed. Repository: kaushikTT/ai-agents-crash-course, Language: Python, TypeScript, Jupyter Notebook
+[2026-07-08T11:30:04Z] [INFO] [FILE-TREE] Step started. Max depth: 4
+[2026-07-08T11:30:08Z] [INFO] [FILE-TREE] Step completed. Directories: 12, Files mapped: ~45
+[2026-07-08T11:30:08Z] [INFO] [TECH-STACK] Step started.
+[2026-07-08T11:30:10Z] [INFO] [TECH-STACK] Step completed. Languages: Python, TypeScript, Jupyter Notebook. Frameworks: OpenAI Agents SDK, Chainlit, Next.js. Vector DB: ChromaDB.
+[2026-07-08T11:30:10Z] [INFO] [MODULE-MAP] Step started.
+[2026-07-08T11:30:12Z] [INFO] [MODULE-MAP] Step completed. Modules identified: 7 (chatbot, chatbot_complete, multi_agent_chatbot, rag_setup, chatkit, notebooks, data)
+[2026-07-08T11:30:12Z] [INFO] [CALL-GRAPH] Step started.
+[2026-07-08T11:30:16Z] [INFO] [CALL-GRAPH] Step completed. Entry points analyzed: 3. Agent handoff chain mapped: breakfast_advisor -> calorie_calculator_tool -> breakfast_price_checker_agent. Guardrail chain mapped.
+[2026-07-08T11:30:16Z] [INFO] [ARCH-LAYERS] Step started.
+[2026-07-08T11:30:17Z] [INFO] [ARCH-LAYERS] Step completed. Pattern: Modular Monolith (progressive learning). Violations: 0
+[2026-07-08T11:30:17Z] [INFO] [OWNERSHIP] Step started.
+[2026-07-08T11:30:20Z] [INFO] [OWNERSHIP] Step completed. 38 commits analyzed. Primary owner: zoltanctoth (31 commits). Contributors: 2. Last commit: 2025-10-14.
+[2026-07-08T11:30:20Z] [WARN] [OWNERSHIP] CODEOWNERS file not found. Ownership derived from commit history only.
+[2026-07-08T11:30:20Z] [INFO] [CHURN] Step started.
+[2026-07-08T11:30:21Z] [INFO] [CHURN] Step completed. High-churn files identified: 4 (multi_agent_chatbot/nutrition_agent.py, requirements.txt, .devcontainer/devcontainer.json, .github/workflows/)
+[2026-07-08T11:30:21Z] [INFO] [SCAR-TISSUE] Step started.
+[2026-07-08T11:30:22Z] [INFO] [SCAR-TISSUE] Step completed. Revert commits: 1 ("Revert removed working notebooks"). Hotfix commits: 0. Critical files: 0. High-risk files: 0.
+[2026-07-08T11:30:22Z] [INFO] [DECISIONS] Step started.
+[2026-07-08T11:30:23Z] [WARN] [DECISIONS] No ADR files found in docs/adr/, docs/decisions/, or adr/. Decision Intelligence derived from notable PRs and commit analysis only.
+[2026-07-08T11:30:25Z] [INFO] [DECISIONS] Step completed. ADRs: 0. Notable PRs: 4. Key decisions inferred: 7 (OpenAI Agents SDK, ChromaDB, Exa MCP, Chainlit, Next.js chatkit, SQLiteSession memory, guardrails).
+[2026-07-08T11:30:25Z] [INFO] [KNOWLEDGE-GRAPH] Step started.
+[2026-07-08T11:30:26Z] [INFO] [KNOWLEDGE-GRAPH] Step completed. Entities: 14. Relationships: 13. Mermaid diagram rendered.
+[2026-07-08T11:30:26Z] [INFO] [REPO-PUSH] Pushing README.md to codebase_archaeology/README.md (first run — folder creation)
+[2026-07-08T11:30:28Z] [INFO] [REPO-PUSH] README.md pushed. Commit SHA: d7ecd341
+[2026-07-08T11:30:28Z] [INFO] [REPO-PUSH] Pushing report to: codebase_archaeology/ai-agents-crash-course-archaeology-report.md (branch: main)
+[2026-07-08T11:30:32Z] [INFO] [REPO-PUSH] Report pushed. Commit SHA: (see below)
+[2026-07-08T11:30:32Z] [INFO] [REPO-PUSH] Pushing log to: codebase_archaeology/ai-agents-crash-course-archaeology-run.log (branch: main)
+[2026-07-08T11:35:00Z] [INFO] [COMPLETE] Run complete.
+  Analysis type: full
+  Repository: kaushikTT/ai-agents-crash-course
+  Branch: main
+  Duration: ~180s
+  Total MCP calls made: 12
+  Steps completed successfully: 16/16
+  Steps with warnings: 2 (OWNERSHIP: no CODEOWNERS, DECISIONS: no ADRs)
+  Steps with errors: 0
+  Output files pushed to repository: codebase_archaeology/README.md, codebase_archaeology/ai-agents-crash-course-archaeology-report.md, codebase_archaeology/ai-agents-crash-course-archaeology-run.log
